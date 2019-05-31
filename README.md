@@ -1,4 +1,4 @@
-This repository shows how a typical web project can consume any web component, including any web component from the [Elix](https://component.kitchen/Elix) library.
+This repository shows how a typical web project can consume any web component, including any web component from the [Elix](https://component.kitchen/Elix) library, in plain HTML and JavaScript.
 
 
 # Quick start
@@ -59,7 +59,7 @@ document.body.appendChild(dateComboBox);
 
 # Bundling components for production use
 
-Elix components are written in plain JavaScript, and so require _no build step_ to be usable. For production use, you will generally want to use webpack or some similar bundler to create a smaller set of JavaScript files. When using a bundler, the `import` statement above can generally be simplified to:
+Elix components are written in plain JavaScript, and so require _no build step_ to be usable. For production use, you will generally want to use webpack or some similar bundler to create a smaller set of JavaScript files. When using a bundler, the `import` statement above can typically be simplified to:
 
 ```js
 // Import the Elix components we want to use.
