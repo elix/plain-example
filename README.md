@@ -9,7 +9,7 @@ This repository shows how a typical web project can consume any web component, i
 The Elix documentation for components like [DateComboBox](https://component.kitchen/elix/DateComboBox) show live demos of Elix components running in your browser. To see an Elix component in action on a local web page, enter the following in a terminal window:
 
 ```
-git clone git@github.com:elix/plain-example.git
+git clone https://github.com/elix/plain-example.git
 cd plain-example
 npm install
 npx http-server
